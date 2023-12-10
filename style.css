@@ -31,3 +31,26 @@ h1 {
 p {
     color: #fff;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em; 
+    }
+    .text-content {
+        font-size: 1.5em; 
+        top: 50%; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em; 
+    }
+    .text-content {
+        font-size: 1em; 
+        width: 80%; 
+        left: 10%; 
+        transform: none;
+    }
+}
