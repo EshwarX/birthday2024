@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     background: #020202;
@@ -8,6 +11,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     cursor: crosshair;
+    font-family: 'Ma Shan Zheng', cursive;
 }
 
 canvas {
@@ -24,7 +28,6 @@ h1 {
     margin: 20px 0; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
 
 .text-content {
     text-align: center;
